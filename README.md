@@ -11,6 +11,7 @@ wget https://launchpad.net/~openjdk-r/+archive/ubuntu/security-deletedppa/+build
 wget https://launchpad.net/~openjdk-r/+archive/ubuntu/security-deletedppa/+build/15214178/+files/openjdk-8-jre-headless_8u181-b13-0ubuntu0.18.04.1_amd64.deb
 sudo dpkg -i openjdk-8-jre-headless_8u181-b13-0ubuntu0.18.04.1_amd64.deb
 sudo dpkg -i openjdk-8-jdk-headless_8u181-b13-0ubuntu0.18.04.1_amd64.deb
+sudo update-alternatives --config java
 ```
 
 
