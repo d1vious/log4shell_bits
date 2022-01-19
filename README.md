@@ -1,7 +1,7 @@
 # log4shell_bits
 a few bits on log4shell
 
-* [A vulnerable application](log4shell-vulnerable-app-0.0.1-SNAPSHOT.jar): We used this vulnerable application created by security researcher Christophe
+* [A vulnerable application](log4shell-vulnerable-app-0.0.1-SNAPSHOT.jar): We used [this vulnerable application](https://github.com/christophetd/log4shell-vulnerable-app) created by security researcher Christophe
 * [POC exploit](JNDIExploit.v1.2.zip): We used [JNDIExploit](https://github.com/zzwlpx/JNDIExploit) (a fork of [JNDIExploit](https://github.com/feihong-cs/JNDIExploit) that is no longer available)
 * Requires Java version 1.8.0_181, on ubuntu 18.04, you can install it by running:
 
